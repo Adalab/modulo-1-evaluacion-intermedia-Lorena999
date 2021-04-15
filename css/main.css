@@ -7,3 +7,44 @@
   outline: none;
   box-sizing: border-box;
 }
+.header {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+.logo {
+  width: 155px;
+  padding: 10px;
+}
+.nav {
+  width: 155px;
+  text-transform: uppercase;
+  color: #4a4a4aa;
+  margin-bottom: 16px;
+}
+.menu {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main {
+  height: 100vh;
+  background-color: #3cdbc0;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row
+  justify-content: center;
+  align-items: center;
+}
+.claim {
+  
+}
