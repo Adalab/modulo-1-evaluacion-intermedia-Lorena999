@@ -19,6 +19,9 @@
 .logo {
   width: 155px;
   padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .nav {
   width: 155px;
@@ -48,7 +51,6 @@
 }
 .claim {
   display: block;
-  flex-wrap: wrap-reverse;
   text-align: center;
   line-height: 50px;
 }
@@ -66,7 +68,5 @@
   }
   .main {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
   }
 }
