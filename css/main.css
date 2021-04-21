@@ -37,17 +37,13 @@
   justify-content: space-between;
   text-transform: uppercase;
 }
-.blog {
-}
-.contacto {
-}
 .main {
   height: 100vh;
   background-color: #3cdbc0;
   font-family: "Rubik", sans-serif;
   font-size: 30px;
   text-transform: capitalize;
-  color: #ffffff;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
