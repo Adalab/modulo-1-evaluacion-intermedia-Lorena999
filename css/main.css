@@ -6,6 +6,7 @@
   border: none;
   outline: none;
   box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 .header {
   width: 100%;
@@ -28,12 +29,16 @@
   color: #4a4a4a;
   margin-bottom: 16px;
 }
+.link {
+  padding: 10px;
+}
 .menu {
   font-size: 16px;
   font-family: "Rubik", sans-serif;
   line-height: 20px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   text-transform: uppercase;
 }
@@ -50,6 +55,8 @@
   justify-content: center;
 }
 .claim {
+  color: white;
+  font-family: "Rubik", sans-serif;
   display: block;
   text-align: center;
   line-height: 50px;
